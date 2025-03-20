@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  color: #000;
+  background: #fff;
+}
+
+a {
+  color: #00f;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+/* Classic 2000s style */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 4px 8px;
+}
+
+input, textarea {
+  border: 1px solid #000;
+  padding: 2px 4px;
+}
+
+button {
+  background: #e0e0e0;
+  border: 2px outset #d0d0d0;
+  padding: 2px 6px;
+  cursor: pointer;
+}
